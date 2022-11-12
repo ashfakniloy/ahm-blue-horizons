@@ -52,7 +52,7 @@ function ContactForm() {
 
               <button
                 type="submit"
-                className="self-end mt-1 bg-custom-blue4 text-white px-5 lg:px-8 py-3 font-bold rounded uppercase active:scale-95 transition-all duration-200"
+                className="lg:self-end mt-1 bg-custom-blue4 text-white px-5 lg:px-8 py-3 font-bold rounded uppercase active:scale-95 transition-all duration-200"
                 disabled={formik.isSubmitting}
                 aria-label="send message"
               >

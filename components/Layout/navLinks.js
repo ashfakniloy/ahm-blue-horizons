@@ -27,19 +27,23 @@ export const navLinks = [
     link: "home",
   },
   {
+    name: "Services",
+    link: "services",
+  },
+  // {
+  //   name: "Gallery",
+  //   link: "gallery",
+  // },
+  {
+    name: "Packages",
+    link: "packages",
+  },
+  {
     name: "About Us",
     link: "about-us",
   },
   {
-    name: "Services",
-    link: "services",
-  },
-  {
-    name: "Gallery",
-    link: "gallery",
-  },
-  {
-    name: "Contact Us",
-    link: "contact-us",
+    name: "Contact",
+    link: "contact",
   },
 ];

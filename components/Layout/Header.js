@@ -8,10 +8,11 @@ import { useState } from "react";
 import Dropdown from "./Dropdown";
 import { AnimatePresence } from "framer-motion";
 import { Link, animateScroll as scroll } from "react-scroll";
+import { MdClose, MdMenu } from "react-icons/md";
 
 function Header() {
   const [toggle, setToggle] = useState(false);
-  // const [activeBorder, setActiveBorder] = useState(false);
+  const [activeBorder, setActiveBorder] = useState(false);
 
   const { scroll } = useScroll();
 
@@ -61,7 +62,14 @@ function Header() {
           </div>
         </Link> */}
 
-        <Link to="home" spy={true} smooth={true} offset={0} duration={500}>
+        <Link
+          to="home"
+          spy={true}
+          smooth={true}
+          offset={0}
+          duration={500}
+          activeClass="border-transparent"
+        >
           <div className="w-[80px]">
             <Image src={BlueHorizonsLogo} alt="ahm blue horizons logo" />
           </div>
@@ -71,15 +79,15 @@ function Header() {
           {navLinks.map((navLink, i) => (
             <div key={i} className="">
               <Link
-                className="cursor-pointer transition-all duration-300"
+                className="cursor-pointer"
                 activeClass="active"
                 to={navLink.link}
                 spy={true}
                 smooth={true}
                 offset={-105}
                 duration={500}
-                // onSetActive={() => setActiveBorder(i)}
-                // onSetInactive={() => setActiveBorder(false)}
+                onSetActive={() => setActiveBorder(i)}
+                onSetInactive={() => setActiveBorder(false)}
               >
                 {navLink.name}
               </Link>
@@ -94,10 +102,10 @@ function Header() {
 
         <button
           type="button"
-          className="lg:hidden text-xl text-custom-blue"
+          className="lg:hidden text-3xl text-custom-blue4"
           onClick={() => setToggle(!toggle)}
         >
-          {toggle ? <FaTimes /> : <FaBars />}
+          {toggle ? <MdClose /> : <MdMenu />}
         </button>
       </div>
       <AnimatePresence>

@@ -2,13 +2,20 @@ import React from "react";
 
 function About() {
   return (
-    <div id="about-us" className="bg-white">
-      <div className="container py-10 lg:py-[100px]">
-        <h1 className="text-5xl font-bold text-center text-custom-gray">
-          About Us
-        </h1>
+    <div id="about-us" className="py-10 lg:py-[100px]">
+      <div className="flex flex-col items-center container">
+        <div className="text-center">
+          <h1 className="text-3xl lg:text-[40px] font-bold text-custom-blue4 ">
+            About Us
+          </h1>
+          <p className="mt-2 lg:mt-5 lg:w-[620px] text-custom-gray text-base lg:text-lg">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut quasi
+            corrupti iste sunt. Officia magnam nemo nobis illum exercitationem
+            temporibus.
+          </p>
+        </div>
 
-        <p className="mt-5">
+        <p className="mt-8">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores
           quidem veniam sint beatae dignissimos soluta accusantium deserunt
           excepturi, amet veritatis deleniti eum maxime labore molestiae fuga
@@ -20,7 +27,7 @@ function About() {
           quae laborum fugiat itaque maxime eos.
         </p>
 
-        <div className="mt-4 flex flex-col lg:flex-row lg:justify-between gap-5 lg:gap-10">
+        <div className="mt-8 flex flex-col lg:flex-row lg:justify-between gap-5 lg:gap-10">
           <p className="">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius iste
             perspiciatis deleniti corporis nemo repellendus, inventore eos vitae
@@ -35,6 +42,27 @@ function About() {
             Recusandae fuga, esse doloremque hic nobis molestias, reiciendis
             facere ratione id vero nihil.
           </p>
+        </div>
+
+        <div className="mt-8">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
+          laudantium minus repellat expedita ad non, aliquid minima praesentium,
+          temporibus veniam mollitia. Excepturi veritatis suscipit molestias
+          nihil incidunt aliquam tempore cum, enim quia distinctio eius veniam,
+          quidem ipsum delectus amet, magni provident? Quod inventore quos
+          delectus amet odit animi praesentium unde nihil consequatur accusamus,
+          eveniet aut provident obcaecati fuga, doloribus voluptate est eaque
+          numquam aperiam quibusdam vitae. Tempora veniam odio temporibus
+          sapiente est maxime amet consequatur recusandae, impedit facilis
+          perferendis nobis exercitationem illum eos praesentium natus deserunt
+          totam accusantium delectus! Non soluta magni eum eligendi. Ipsa unde
+          dolores tempore! Dolor impedit recusandae corporis! Commodi eius
+          suscipit facere neque deleniti, expedita sit quaerat natus nemo
+          facilis tempore, minus quos. Iusto fugiat consectetur eveniet
+          repellendus minima eius sed illo doloribus officiis earum ratione,
+          quae pariatur reprehenderit cupiditate ad quibusdam explicabo nihil
+          dolorem tempore consequuntur eos cum? Aliquid recusandae similique
+          possimus modi architecto! Rerum.
         </div>
       </div>
     </div>

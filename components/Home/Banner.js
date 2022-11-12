@@ -35,7 +35,7 @@ function Banner() {
           <div className="">
             <button
               type="button"
-              className="mt-5 px-9 py-3 font-semibold text-white bg-custom-blue4 hover:bg-custom-blue transition duration-500"
+              className="mt-5 px-9 py-3 font-semibold text-white bg-purple-800 hover:bg-purple-900 transition duration-500"
             >
               Learn More
             </button>

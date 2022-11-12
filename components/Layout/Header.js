@@ -12,7 +12,7 @@ import { MdClose, MdMenu } from "react-icons/md";
 
 function Header() {
   const [toggle, setToggle] = useState(false);
-  const [activeBorder, setActiveBorder] = useState(false);
+  // const [activeBorder, setActiveBorder] = useState(false);
 
   const { scroll } = useScroll();
 
@@ -86,8 +86,8 @@ function Header() {
                 smooth={true}
                 offset={-105}
                 duration={500}
-                onSetActive={() => setActiveBorder(i)}
-                onSetInactive={() => setActiveBorder(false)}
+                // onSetActive={() => setActiveBorder(i)}
+                // onSetInactive={() => setActiveBorder(false)}
               >
                 {navLink.name}
               </Link>

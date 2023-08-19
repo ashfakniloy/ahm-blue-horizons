@@ -9,7 +9,7 @@ export const servicesData = [
   {
     name: "Flight Ticket",
     description:
-      "Unlock the world&apos;s destinations with our seamless booking experience.",
+      "Unlock the world's destinations with our seamless booking experience.",
     image: Ticket,
   },
   {

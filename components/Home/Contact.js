@@ -22,9 +22,9 @@ function Contact() {
             Contact Us
           </h1>
           <p className="mt-2 lg:mt-5 lg:w-[620px] text-custom-gray text-base lg:text-lg">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut quasi
-            corrupti iste sunt. Officia magnam nemo nobis illum exercitationem
-            temporibus.
+            Got questions or ready to plan? Reach out to our team for
+            personalized assistance. We&apos;re here to guide you, listen to
+            your feedback, and help you embark on your next adventure.
           </p>
         </div>
 

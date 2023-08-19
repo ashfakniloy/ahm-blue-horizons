@@ -13,9 +13,9 @@ function Services() {
             Our Services
           </h1>
           <p className="mt-2 lg:mt-5 lg:w-[620px] text-custom-gray text-base lg:text-lg">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut quasi
-            corrupti iste sunt. Officia magnam nemo nobis illum exercitationem
-            temporibus.
+            Experience hassle-free travel with our top-notch services. From
+            efficient booking to personalized in-flight comfort, we&apos;re
+            committed to enhancing every step of your journey.
           </p>
         </div>
 

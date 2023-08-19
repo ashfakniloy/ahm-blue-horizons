@@ -9,37 +9,35 @@ export const servicesData = [
   {
     name: "Flight Ticket",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis,beatae?",
+      "Unlock the world&apos;s destinations with our seamless booking experience.",
     image: Ticket,
   },
   {
     name: "Hotel Reservation",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis,beatae?",
+    description: "Find your home away from home, no matter where you wander.",
     image: Hotel,
   },
   {
     name: "Travel Guide",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis,beatae?",
+    description: "Let our experts lead you through immersive explorations.",
     image: Guide,
   },
   {
     name: "Trip Activities",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis,beatae?",
+      "Elevate your adventure with handpicked experiences at every stop.",
     image: Activities,
   },
   {
     name: "Airport Taxi",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis,beatae?",
+      "Smooth transitions from touchdown to takeoff, right at your service.",
     image: Taxi,
   },
   {
     name: "Delicoius Food",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis,beatae?",
+      "Taste the globe as you indulge in culinary delights from all corners.",
     image: Food,
   },
 ];

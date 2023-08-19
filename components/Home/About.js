@@ -9,9 +9,9 @@ function About() {
             About Us
           </h1>
           <p className="mt-2 lg:mt-5 lg:w-[620px] text-custom-gray text-base lg:text-lg">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut quasi
-            corrupti iste sunt. Officia magnam nemo nobis illum exercitationem
-            temporibus.
+            Meet the minds behind our agency. With a passion for travel and a
+            commitment to excellence, we&apos;re here to turn your travel
+            aspirations into reality.
           </p>
         </div>
 

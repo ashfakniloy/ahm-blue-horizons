@@ -138,8 +138,20 @@ function Footer() {
           </div>
         </div>
 
-        <div className="mt-14 text-sm ">
+        <div className="mt-14 text-sm flex flex-col lg:flex-row gap-2 lg:gap-0 justify-between items-center">
           <p>&copy; 2022 AHM Blue Horizons. All Rights Reserved.</p>
+
+          <p>
+            <span className="font-semibold mr-2">Developed by:</span>
+            <a
+              href="https://niloy.vercel.app"
+              target="_blank"
+              rel="noreferrer"
+              className="text-blue-300 hover:text-blue-500 underline transition-colors duration-200"
+            >
+              Ashfak Ahmed Niloy
+            </a>
+          </p>
         </div>
       </div>
     </div>
